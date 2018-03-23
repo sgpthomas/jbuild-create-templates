@@ -1,0 +1,10 @@
+(jbuild_version 1)
+
+(executable
+ ((name main)
+  (libraries ())
+  (flags (:standard -g))))
+
+(install
+ ((section bin)
+  (files ((main.exe as @@PROJNAME@@)))))
