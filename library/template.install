@@ -1,0 +1,7 @@
+lib: [
+  "_build/install/default/lib/template/META" {"META"}
+  "_build/install/default/lib/template/opam" {"opam"}
+]
+bin: [
+  "_build/install/default/bin/@@PROJNAME@@" {"@@PROJNAME@@"}
+]
